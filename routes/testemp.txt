@@ -1,0 +1,29 @@
+{\"id\":1846700616,\"nickname\":\"TESTUSER1178765404\",\"password\":\"wFRYqP5sVA\",\"site_status\":\"active\",\"site_id\":\"MLB\",\"description\":\"Brendo\",\"date_created\":\"2024-06-06T01:11:28-04:00\",\"date_last_updated\":\"2024-06-06T01:11:28-04:00\"}"
+
+
+
+$ch = curl_init();
+
+curl_setopt($ch, CURLOPT_URL, 'https://api.mercadopago.com/users/test');
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+curl_setopt($ch, CURLOPT_POST, 1);
+curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode([
+    'description' => 'Brendo',
+    'site_id' => 'MLB'
+]));
+
+$headers = [
+    'Content-Type: application/json',
+    'Authorization: Bearer ' . $mercadoAccessToken,
+];
+
+curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
+
+$result = curl_exec($ch);
+if (curl_errno($ch)) {
+    echo 'Error:' . curl_error($ch);
+}
+curl_close($ch);
+
+            return response()->json($result);
+

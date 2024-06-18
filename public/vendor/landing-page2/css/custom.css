@@ -1,0 +1,182 @@
+.main-header{
+    min-height: unset !important;
+    height: auto;
+    padding: 15px 0  !important;
+    box-shadow: 0px 0px 9px rgb(0 0 0 / 15%);
+}
+.main-header::before,
+.main-header::after
+{
+    display: none;
+}
+
+.main-header .navbar-brand{
+    max-width: 140px;
+    width: 100%;
+    display: block;
+}
+.main-header .navbar-brand img{
+    width: 100%;
+}
+
+.feature .theme-avtar {
+    width: 60px !important;
+    height: 60px !important;
+}
+.feature .theme-avtar img{
+    width: 100%;
+}
+
+.product-row .col-md-6 {
+    display: flex !important;
+}
+.product-row .col-md-6 > div{
+    width: 100%;
+}
+
+.product-row  .card-body {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.product-row  .card-body h4{
+    flex: 1;
+}
+.feature{
+    padding-top: 60px;
+}
+.main-header .btn-icon{
+    display: flex;
+    gap: 10px;
+}
+.product-row  .btn{
+    color: #fff;
+}
+
+/* login page */
+.forgot-password-link{
+    margin-left: 30%;
+    font-size: small;
+}
+.create_user{
+    font-size: small;
+    margin-top: 10px;
+}
+.list{
+    /* height: 300px; */
+    overflow: auto!important;
+    scroll-behavior: smooth;
+}
+
+/* register */
+.register-tab {
+    margin-top: 80px !important;
+}
+
+/* warning , danger , info messgae  color, tostr close */
+.btn-close {
+    box-sizing: content-box;
+    width: 1em;
+    height: 1em;
+    padding: 0.25em 0.25em;
+    color: #000000;
+    background: transparent url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23000000' viewBox='0 0 16 16'%3e%3cpath d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/%3e%3c/svg%3e") center/1em auto no-repeat;
+    border: 0;
+    border-radius: 10px;
+    opacity: 0.5;
+}
+.btn-close:hover {
+    color: #000000;
+    text-decoration: none;
+    opacity: 0.75;
+}
+.btn-close:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(81, 69, 157, 0.25);
+    opacity: 1;
+}
+.btn-close:disabled,
+.btn-close.disabled {
+    pointer-events: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    opacity: 0.25;
+}
+.btn-close-white {
+    filter: invert(1) grayscale(100%) brightness(200%);
+}
+
+.toast.showing {
+    opacity: 0;
+}
+
+.toast:not(.show) {
+    display: none;
+}
+
+.fade:not(.show) {
+    opacity: 0;
+}
+
+.toast-container {
+    --bs-toast-zindex: 1090;
+    position: absolute;
+    z-index: var(--bs-toast-zindex);
+    width: -moz-max-content;
+    width: max-content;
+    max-width: 100%;
+    pointer-events: none;
+}
+
+.toast-container> :not(:last-child) {
+    margin-bottom: var(--bs-toast-spacing);
+}
+.toast-header {
+    display: flex;
+    align-items: center;
+    padding: var(--bs-toast-padding-y) var(--bs-toast-padding-x);
+    color: var(--bs-toast-header-color);
+    background-color: var(--bs-toast-header-bg);
+    background-clip: padding-box;
+    border-bottom: var(--bs-toast-border-width) solid var(--bs-toast-header-border-color);
+    border-top-left-radius: calc(var(--bs-toast-border-radius) - var(--bs-toast-border-width));
+    border-top-right-radius: calc(var(--bs-toast-border-radius) - var(--bs-toast-border-width));
+}
+.toast-header .btn-close {
+    margin-right: calc(-.5 * var(--bs-toast-padding-x));
+    margin-left: var(--bs-toast-padding-x);
+}
+.toast-body {
+    padding: var(--bs-toast-padding-x);
+    word-wrap: break-word;
+}
+.bg-danger {
+    background-color: #ff3a6e !important;
+    padding: 15px;
+    font-size: 13px;
+}
+.bg-warning {
+    background-color: #ffa21d !important;
+    padding: 15px;
+    font-size: 13px;
+}
+.bg-success {
+    background-color: #6fd943 !important;
+    padding: 15px;
+    font-size: 13px;
+}
+.bg-info {
+    background-color: #3ec9d6 !important;
+    padding: 15px;
+    font-size: 13px;
+}
+
+/* inline css */
+/* view all blog */
+.cate-blog {
+    margin-bottom: 20px;
+}

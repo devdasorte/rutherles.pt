@@ -1,0 +1,26 @@
+@media only screen and (max-width: 992px) {
+  .content-right,
+  .left-bar .left-inner-content,
+  .content-left .page-header-nav {
+    display: none;
+  }
+  .wrapper,
+  .left-sidebar-toggler {
+    display: block;
+  }
+  .left-bar {
+    width: 100%;
+  }
+  .middle-content {
+    display: block;
+    width: 100%;
+  }
+  .content-left {
+    max-width: 100%;
+    padding: 30px 15px;
+    margin: 0 auto;
+  }
+  .sider-button {
+    display: none;
+  }
+}

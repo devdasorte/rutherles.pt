@@ -1,0 +1,47 @@
+
+#sorteando-container:not(.hidden) {
+margin-top: 20px;
+justify-content: center;
+align-items: center;
+display: flex;
+flex-direction: column;
+width: 80%;
+margin: 0 auto;
+
+}
+#sorteando-container.hidden{
+display: none;
+}
+#sorteando {
+  display: flex;
+  flex-direction: row !important;
+  justify-content: center !important;
+  align-items: center !important;
+  padding: 40px !important;
+  margin-top: 20px;
+}
+
+#sorteando>div>p {
+  font-size: 35px;
+  font-weight: 700;
+  padding: 10px;
+  color: #fff;
+  transition: all cubic-bezier(0.07, 1.17, 0.4, -0.2) 0.3s;
+  transform: scale(1.5);
+}
+
+#sorteando>div {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 40px;
+}
+
+#sorteando>div>span {
+  font-size: 25px;
+  font-weight: 700;
+  padding: 10px;
+  color: #fff;
+  transition: all cubic-bezier(0.07, 1.17, 0.4, -0.2) 0.3s;
+}

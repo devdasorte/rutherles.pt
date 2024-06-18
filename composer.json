@@ -1,0 +1,142 @@
+{
+    "name": "laravel/laravel",
+    "type": "project",
+    "description": "the Laravel framework.",
+   
+
+    "keywords": [
+        "laravel",
+        "livewire",
+        "livewire 3",
+        "livewire ui",
+        "livewire ui components",
+        "tallstack",
+        "tallstack ui",
+        "tallstackui",
+        "tallstack components",
+        "blade",
+        "ui",
+        "blade ui components",
+        "livewire-components",
+        "livewire components",
+        "livewire-packages",
+        "livewire packages",
+        "tailwind",
+        "components",
+        "daisyUI",
+        "alpinejs"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^8.0.2",
+        "anhskohbo/no-captcha": "^3.4",
+        "bacon/bacon-qr-code": "^2.0",
+        "barryvdh/laravel-debugbar": "^3.9",
+        "barryvdh/laravel-snappy": "^1.0",
+        "blade-ui-kit/blade-icons": "^1.6",
+        "coingate/coingate-php": "v3.0",
+        "gdbhosale/paywitheasebuzz-php": "^1.0",
+        "guzzlehttp/guzzle": "^7.5",
+        "iyzico/iyzipay-php": "^2.0",
+        "kkomelin/laravel-translatable-string-exporter": "^1.17",
+        "lab404/laravel-impersonate": "^1.7",
+        "laravel/framework": "^10.10",
+        "laravel/pulse": "^1.2",
+        "laravel/sanctum": "^3.3",
+        "laravel/socialite": "^5.5",
+        "laravel/telescope": "^4.17",
+        "laravel/tinker": "^2.8",
+        "laravel/ui": "^4.1",
+        "laravelcollective/html": "^6.4",
+        "league/flysystem-aws-s3-v3": "^3.10",
+        "livewire/livewire": "^3.5",
+        "livewire/volt": "^1.6",
+        "maatwebsite/excel": "^3.1",
+        "mercadopago/dx-php": "3.0.5",
+        "mollie/mollie-api-php": "^2.59",
+        "munafio/chatify": "^1.5",
+        "obydul/laraskrill": "^1.2",
+        "paragonie/recaptcha": "^2.1",
+        "paytabscom/laravel_paytabs": "^1.4",
+        "paytm/js-checkout": "dev-master",
+        "pragmarx/google2fa-laravel": "^2.0",
+        "rachidlaasri/laravel-installer": "^4.1",
+        "robsontenorio/mary": "^1.32",
+        "spatie/laravel-activitylog": "^4.7",
+        "spatie/laravel-database-mail-templates": "^3.5",
+        "spatie/laravel-google-calendar": "^3.6",
+        "spatie/laravel-permission": "^5.7",
+        "spatie/laravel-sluggable": "^3.5",
+        "srmklive/paypal": "^3.0",
+        "stancl/tenancy": "^3.7",
+        "stripe/stripe-php": "^10.0",
+        "twilio/sdk": "^7.4",
+        "whichbrowser/parser": "^2.1",
+        "yajra/laravel-datatables": "^9.0",
+        "yajra/laravel-datatables-oracle": "^10.2"
+    },
+
+    
+    "require-dev": {
+        "fakerphp/faker": "^1.9.1",
+        "laravel/pint": "^1.0",
+        "laravel/sail": "^1.18",
+        "mockery/mockery": "^1.4.4",
+        "nunomaduro/collision": "^7.0",
+        "phpunit/phpunit": "^10.1",
+        "spatie/laravel-ignition": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Database\\Factories\\": "database/factories/",
+            "Database\\Seeders\\": "database/seeders/",
+              "Mary\\Tests\\": "tests"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "post-autoload-dump": [
+            "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+            "@php artisan package:discover --ansi",
+            "@php artisan vendor:publish --force --tag=livewire:assets --ansi"
+        ],
+
+  
+        "post-update-cmd": [
+            "@php artisan vendor:publish --tag=laravel-assets --ansi --force"
+        ],
+        "post-root-package-install": [
+            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+        ],
+        "post-create-project-cmd": [
+            "@php artisan key:generate --ansi"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "dont-discover": [],
+            "providers": [
+                "Mary\\MaryServiceProvider"
+            ],
+            "aliases": {
+                "Mary": "Mary\\Facades\\Mary"
+            }
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true,
+            "php-http/discovery": true
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}

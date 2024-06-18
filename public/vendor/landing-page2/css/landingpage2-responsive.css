@@ -1,0 +1,482 @@
+/*================================================================================================*/
+/*=================[                                                            ]=================*/
+/*=================[    !!!!!!!!   CSS CREATED BY RAJODIYA INFOTECH  !!!!!!!!   ]=================*/
+/*=================[                                                            ]=================*/
+/*================================================================================================*/
+
+.coupne-code .form-group:first-child {
+    flex: 1;
+}
+
+@media screen and (min-width: 768px){
+    /**** HOME PAGE CSS ****/
+    .desk-only {
+        display: block !important;
+    }
+    .mobile-only {
+        display: none !important;
+    }
+}
+@media screen and (max-width:1360px){
+    .faqs-bg {
+        right: 0px;
+    }
+    .article-bg {
+        right: 45px;
+    }
+    .video-play-sec .video-bg {
+        top: -130px;
+    }
+    .contact-bg{
+        display: none;
+    }
+    .site-footer .footer-link {
+        max-width: 380px;
+        width: 100%;
+        flex: 0 0 380px;
+        padding-left: 0;
+    }
+    .pricing-bg{
+        display: none;
+    }
+    .faqs-left-div {
+        max-width: 75%;
+    }
+    .contact-banner-row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .header-style-one .main-navigationbar .menu-items-col .main-nav>li:not(:last-of-type) {
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width:1199px){   /* 1215 */
+    /**** HOME PAGE CSS ****/
+    /* header section css */
+    .header-style-one .logo-col {
+        max-width: 130px;
+        margin-right: 15px;
+    }
+    .header-style-one .main-navigationbar .menu-items-col .main-nav>li:not(:last-of-type) {
+        padding-right: 10px;
+    }
+    .apex-chart-sec .chart-right-side, .support-system-sec .chart-right-side {
+        max-width: 80%;
+        width: 100%;
+    }
+    .contact-banner-sec{
+        padding-bottom: 40px;
+    }
+    .basic-plans {
+        padding: 30px 20px;
+    }
+    .menu-item-right-col .menu-left-col {
+        padding-right: 0px;
+    }
+    .header-style-one .navigation-row {
+        padding: 0 15px;
+    }
+}
+
+@media screen and (max-width:991px){  /* 1133 */
+        :root {
+            --h1: normal 600 32px/1.2 var(--first-font);
+            --h2: normal 600 26px/1.2 var(--first-font);
+            --h3: normal 600 20px/1.2 var(--first-font);
+            --h4: normal 600 18px/1.2 var(--first-font);
+            --h5: normal 600 16px /1.2 var(--first-font);
+            --h6: normal 600 14px/1.2 var(--first-font);
+        }
+        .pt{
+            padding-top: 40px;
+        }
+        .pb{
+            padding-bottom: 40px;
+        }
+        .section-title {
+            margin-bottom: 20px;
+        }
+    /**** HOME PAGE CSS ****/
+    /* header section css */
+    .menu-item-right-col .mobile-menu{
+        display: block;
+    }
+    .menu-item-right-col .menu-left-col,.menu-right-col .login-btn{
+        display: none;
+    }
+    .mobile-login-btn{
+        display: block;
+        max-width: 160px;
+        width: 100%;
+    }
+    .menu-item-right-col .menu-right-col li {
+        padding-left: 0px;
+    }
+    .menu-item-right-col .menu-right-col li:nth-child(1) {
+        padding-left: 0px;
+        padding-right: 15px;
+    }
+    .header-style-one .main-navigationbar{
+        background-color: var(--white);
+        box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.05);
+        padding: 10px 0;
+    }
+    .header-style-one .navigation-row{
+        background: transparent;
+        box-shadow: none;
+        padding: 0px 0px;
+    }
+    .features-top-content h3 a{
+        display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    }
+    .home-banner-sec {
+        padding-top: 70px;
+    }
+    .video-play-sec .video-bg {
+        top: -300px;
+    }
+    .play-btn svg{
+        width: 90px;
+        height: 90px;
+    }
+    .testimonial-bg-2 {
+        right: 80px;
+    }
+    .testimonial-bg {
+        left: 70px;
+    }
+    .header-style-one {
+        top: 0px;
+    }
+    .article-card-content .author-name .author-img {
+        width: 30px;
+        height: 30px;
+        margin-right: 12px;
+    }
+    .date svg{
+        width: 18px;
+    height: 18px;
+    }
+    .menu-item-right-col .menu-right-col li.switch-toggle svg{
+        width: 20px;
+        height: 20px;
+    }
+    .footer-col{
+        padding-left: 20px;
+    }
+    .site-footer .footer-link {
+        max-width: 265px;
+        width: 100%;
+        flex: 0 0 265px;
+        padding-left: 0;
+    }
+    .footer-logo {
+        margin-bottom: 15px;
+        max-width: 50%;
+        width: 100%;
+    }
+    .footer-col h3 {
+        font-size: 18px;
+    }
+    .footer-bottom {
+        margin-top: 30px;
+    }
+    .bg-the-img,.client-bg2,.features-sec-bg,.video-play-sec .video-bg{
+        display: none;
+    }
+    .admin-bg {
+        right: 2%;
+    }
+    .apex-chart-sec .chart-right-side, .support-system-sec .chart-right-side {
+        max-width: 100%;
+        width: 100%;
+    }
+    .advance-feature .advance-card-icon svg, .basic-plans-top ul li .plan-card-icon svg{
+        width: 20px;
+        height: 20px;
+    }
+    .basic-plans-price {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .custom-pricing-center {
+        max-width: 200px;
+    }
+    .article-card-inner h3 a {
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+    .testimonials-sec .testimonial-card-inner .testimonial-card-content {
+        max-width: 90%;
+        width: 100%;
+    }
+    .widget-blog-card .author-info {
+        gap: 5px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .blog-page-banner {
+        padding-top: 155px;
+    }
+    .blog-sidebar-sec {
+        padding-bottom: 20px;
+    }
+    .article-content-sec h5, .article-content-sec p,.article-sec p{
+        max-width: 100%;
+    }
+    .menu-item-right-col .menu-right-col .language-btn{
+        display: none;
+    }
+}
+@media screen and (max-width:767px){
+    .apex-chart-sec .chart-right-side, .support-system-sec .chart-right-side{
+        margin-top: 15px;
+    }
+    .custom-pricing-center{
+        display: none;
+    }
+    .faqs-left-div{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .contact-banner-leftside{
+        padding: 25px 0;
+    }
+    .footer-col{
+        flex: 0 0 50%;
+        padding-left: 0;
+        padding-right: 20px;
+        margin-bottom: 20px;
+    }
+    .site-footer .footer-link{
+        max-width: 100%;
+        flex: 0 0 100%;
+        margin-bottom: 25px;
+    }
+    .contact-banner-sec {
+        padding-bottom: 0px;
+    }
+    .footer-bottom {
+        margin-top: 20px;
+    }
+    .admin-saas-sec .section-content {
+        max-width: 90%;
+        width: 100%;
+    }
+    .admin-bg,.video-play-sec .video-bg-sec,.testimonial-bg,.testimonial-bg-2{
+        display: none;
+    }
+    .client-bg{
+        left: 5%;
+    }
+    .feature-sec-content {
+        max-width: 90%;
+        margin: 0 auto 26px;
+    }
+    .play-btn svg {
+        width: 70px;
+        height: 70px;
+    }
+    .counter-sec .section-title, .pricing-plans-sec .section-title, .article-sec .section-title {
+        max-width: 90%;
+    }
+    .counter-sec .counter-iteam .counter-content {
+        font-size: 16px;
+    }
+    .slick-arrow {
+        width: 35px;
+        height: 35px;
+        padding: 10px;
+    }
+    .testimonials-sec .testimonial-card-inner .testimonial-card-content svg{
+        width: 25px;
+        height: 25px;
+    }
+    .pricing-plans-sec .row{
+        gap: 20px;
+    }
+    .blog-page-banner {
+        padding-top: 140px;
+        padding-bottom: 60px;
+    }
+    .blog-right-side{
+        margin-top: 50px;
+    }
+    .sidebar-widget-area .widget-search{
+        padding: 30px 20px;
+    }
+    .article-content-col{
+        margin-top: 40px;
+    }
+    .article-content-col .article-right-col{
+        margin-top: 30px;
+    }
+    .article-page-slider{
+        padding-bottom: 10px;
+    }
+    .abt-user-info .abt-image {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media screen and (max-width:575px){
+    /**** HOME PAGE CSS ****/
+    /* header section css */
+    .menu-right-col .switch-toggle a{
+        padding: 5px;
+    }
+    .menu-right-col .switch-toggle a svg{
+       width: 20px;
+       height: 20px;
+    }
+    .counter-sec .main-counter-div .row{
+        gap: 15px;
+    }
+    .footer-col{
+        flex: 0 0 100%;
+        padding-right: 0;
+    }
+    .footer-bottom {
+        margin-top: 0px;
+        padding-top: 20px;
+    }
+    .admin-saas-sec .section-content,.faqs-left-div,.counter-sec .section-title, .pricing-plans-sec .section-title, .article-sec .section-title,.feature-sec-content{
+        max-width: 100%;
+    }
+    .client-bg,.features-sec .section-title h2::after,.article-bg{
+        display: none;
+    }
+    .custom-pricing-left{
+        width: 100%;
+    margin-bottom: 10px;
+
+    }
+    .features-card .features-card-image a {
+        width: 70px;
+        height: 70px;
+    }
+    .features-card .features-card-image a svg{
+        width: 35px;
+        height: 35px;
+    }
+    .contact-btn-wrapper {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .contact-banner-leftside .contact-btn{
+        margin-left: 0;
+    }
+    .basic-plans-bottom .basic-price-left {
+        padding-right: 15px;
+    }
+    .testimonials-sec .testimonial-card-inner .testimonial-card-content {
+        max-width: 100%;
+    }
+    .testimonials-sec .testimonial-card-inner .testimonial-card-content p {
+        margin: 25px 10px 25px;
+        font-size: 18px;
+    }
+    .article-page-slider .section-title,.about-user {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .about-user .post-lbl{
+        margin-left: 0;
+        margin-top: 15px;
+    }
+    .article-page-slider .section-title .section-title-left{
+        margin-bottom: 15px;
+    }
+}
+@media screen and (max-width:480px){
+    .admin-saas-sec .section-content .admin-btn-wrapper{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .advance-feature .advance-card-icon, .basic-plans-top ul li .plan-card-icon {
+        margin-right: 10px;
+    }
+    .basic-plans {
+        padding: 20px 11px;
+    }
+    .faqs-bg{
+        display: none;
+    }
+    .pricing-tab{
+        justify-content: flex-start;
+    }
+    .pricing-tab ul{
+        flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    }
+
+    .demo-bg-img {
+        top: -28px;
+        left: -48px;
+        max-width: 160px;
+    }
+    .demo-bannerimg {
+        padding: 40px 0 0 14px;
+    }
+}
+
+
+/* inline css */
+@media screen and (max-width: 768px) {
+    .section3-purple,
+    .section3-yellow,
+    .section3-blue,
+    .blue-bg,
+    .purple-bg,
+    .yellow-bg {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .purple-bg.left-purple {
+        bottom: -40px;
+        left: -2px;
+        position: absolute;
+        z-index: -1;
+    }
+    .section2-yellow{
+        position: absolute;
+        z-index: -1;
+        top: -30px;
+        right: -10px;
+    }
+}
+
+/* front payment responsive */
+@media screen and (max-width: 575px) {
+    .plan-sec .card .card-body {
+        padding: 10px;
+    }
+}
+@media (max-width: 575.98px) {
+    .card {
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 1199px) {
+    .flex-equal {
+        max-width: 100%;
+        overflow: scroll;
+    }
+}
+@media screen and (max-width: 1199px) {
+    .flex-equal {
+        max-width: 100%;
+        overflow: scroll;
+    }
+}

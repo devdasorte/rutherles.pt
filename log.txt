@@ -1,0 +1,60 @@
+2024-06-11 11:03:25 - 80047998743 - payment
+2024-06-11 11:04:02 - 80047998743 - payment
+2024-06-11 11:08:25 - "action=receive_notify&amp%3Bdata_id=80047998743&amp%3Btype=payment"
+2024-06-11 11:11:14 - "{\"action\":\"receive_notify\",\"amp;data_id\":\"80047998743\",\"amp;type\":\"payment\"}"
+2024-06-11 12:00:14 - 80048270667 - payment
+2024-06-11 12:01:05 - 80048270667 - payment
+2024-06-11 12:01:26 - 80048270667 - payment
+2024-06-11 12:03:21 - 80048270667 - payment
+2024-06-11 12:04:24 - 80048270667 - payment
+2024-06-11 12:06:09 - 80048270667 - payment
+2024-06-11 12:06:32 - 80048270667 - payment
+2024-06-11 12:07:37 - 80048270667 - payment
+2024-06-11 12:08:37 -  - 
+2024-06-11 12:09:08 -  - 
+2024-06-11 12:10:31 -  - 
+2024-06-11 12:11:29 -  - 
+2024-06-11 12:12:33 -  - payment
+2024-06-11 12:12:33 - Pagamento reprovado:  -  - 
+2024-06-11 12:13:59 - 80048270667 - payment
+2024-06-11 12:14:16 -  - payment
+2024-06-11 12:14:16 - Pagamento reprovado:  -  - 
+2024-06-11 12:14:23 - 80048270667 - payment
+2024-06-11 12:15:44 - 80048270667 - 
+2024-06-11 12:16:13 - 80048270667 - 
+2024-06-11 12:16:57 - 80048270667 - 
+2024-06-11 12:18:06 -  - 
+2024-06-11 12:18:07 -  - 
+2024-06-11 12:19:15 -  - 
+2024-06-11 12:19:16 -  - 
+2024-06-11 12:22:23 - 80328761068 - payment
+2024-06-11 12:22:23 - Pagamento aprovado: 80328761068 - 210 - approved
+2024-06-11 12:22:34 - 80328761068 - payment
+2024-06-11 12:22:34 - Pagamento aprovado: 80328761068 - 210 - approved
+2024-06-11 12:33:47 -  - 
+2024-06-11 12:33:47 -  - 
+2024-06-11 12:35:05 -  - 
+2024-06-11 12:35:05 -  - 
+2024-06-11 12:40:22 -  - 
+2024-06-11 12:40:59 -  - 
+2024-06-11 12:42:14 -  - 
+2024-06-11 12:42:14 -  - 
+2024-06-11 12:43:08 -  - 
+2024-06-11 12:43:08 -  - 
+2024-06-11 12:47:35 -  - 
+2024-06-11 12:47:35 -  - 
+2024-06-11 12:48:23 -  - 
+2024-06-11 12:48:30 -  - 
+2024-06-11 12:50:06 - {"action":"receive_notify","id":"80331355854","topic":"payment"}
+2024-06-11 12:50:06 - Pagamento aprovado
+2024-06-11 12:50:08 - {"accounts_info":null,"acquirer_reconciliation":[],"additional_info":{"authentication_code":null,"available_balance":null,"bank_info":{"is_same_bank_account_owner":true},"nsu_processadora":null},"authorization_code":null,"binary_mode":false,"brand_id":null,"build_version":"3.56.0","call_for_authorize_id":null,"callback_url":null,"captured":true,"card":[],"charges_details":[],"collector_id":1844384111,"corporation_id":null,"counter_currency":null,"coupon_amount":0,"currency_id":"BRL","date_approved":"2024-06-11T11:48:20.000-04:00","date_created":"2024-06-11T11:47:32.000-04:00","date_last_updated":"2024-06-11T11:48:22.000-04:00","date_of_expiration":"2024-06-12T11:47:32.000-04:00","deduction_schema":null,"description":null,"differential_pricing_id":null,"external_reference":"213","fee_details":[],"financing_group":null,"id":80331355854,"installments":1,"integrator_id":null,"issuer_id":"12501","live_mode":true,"marketplace_owner":null,"merchant_account_id":null,"merchant_number":null,"metadata":[],"money_release_date":"2024-06-11T11:48:20.000-04:00","money_release_schema":null,"money_release_status":"released","notification_url":"https:\/\/rifei.rutherles.pt\/mp\/Main.php?action=receive_notify","operation_type":"regular_payment","order":[],"payer":{"email":"XXXXXXXXXXX","entity_type":null,"first_name":null,"id":"1702667588","identification":{"number":null,"type":null},"last_name":null,"operator_id":null,"phone":{"number":null,"extension":null,"area_code":null},"type":null},"payment_method":{"id":"pix","issuer_id":"12501","type":"bank_transfer"},"payment_method_id":"pix","payment_type_id":"bank_transfer","platform_id":null,"point_of_interaction":{"application_data":{"name":null,"version":null},"business_info":{"branch":null,"sub_unit":"sdk","unit":"online_payments"},"location":{"source":null,"state_id":null},"sub_type":"INTER_PSP","transaction_data":{"bank_info":{"collector":{"account_holder_name":"Bruno Matheus Alves de Souza","account_id":41598020852,"long_name":"Mercadopago.com Representa\u00e7\u00f5es Ltda.","transfer_account_id":null},"is_same_bank_account_owner":true,"origin_bank_id":null,"origin_wallet_id":null,"payer":{"account_id":55129145,"external_account_id":null,"id":null,"identification":[],"long_name":"Picpay Servi\u00e7os S.A."}},"bank_transfer_id":18923595643,"e2e_id":null,"financial_institution":1,"infringement_notification":{"status":null,"type":null},"qr_code":"00020126580014br.gov.bcb.pix0136ccbc0281-6bbe-4feb-bc85-edd6da5ac51152040000530398654040.105802BR5916AB202406060834376009Sao Paulo62240520mpqrinter8033135585463048255","qr_code_base64":"iVBORw0KGgoAAAANSUhEUgAABWQAAAVkAQAAAAB79iscAAAOI0lEQVR4Xu3XUZZcuwmF4Z7Bnf8sM4PKMhsEAp3KSlbL7nL+\/VCWBELf6Td\/vT4o\/\/rqJz85aO8F7b2gvRe094L2XtDeC9p7QXsvaO8F7b2gvRe094L2XtDeC9p7QXsvaO8F7b2gvRe094L2XtDeC9p7QXsvaO8F7b2gvRe094L2XtDeC9p7QXsvaO8F7b2gvRe094L2XtDeC9p7qdqvnn9+nW0\/61ap2tbPItmXzaPlVLWhLfXdtTy2oY2WUxUtWrRxq1TRbkGLVkGLVkGLVkH7+7V5vm0rais0aGs5vZ03vM\/StA8MtNmC9ny+bdGi3VZoFbRoFbRoFbRoFbQ\/UJv3m7YNyULTVmjMqzdimzdyOz6yvYsWrYIWrYIWrYIWrYIWrYIWrfK3aYNS8XPbyPlTySGrxvZpaOcWbdxFixbtr6CNu2jRov0VtHEXLdq\/W+vbSALW\/Q2Qn2bZvvnxJ2ODToz1xloe22KOB22JDTox1htreWyLOR60JTboxFhvrOWxLeZ40JbYoBNjvbGWx7aY40FbYoNOjPXGWh7bYo4HbYkNOjHWG2t5bIs5HrQlNujEWG+s5bEt5njQltigE2O9sZbHtpjjQVtig06M9cZaHttijgdtiQ06MdYba3lsizmen6Zt2yZrZ3U1pzvg8QvyWhT8bDI8aNEqaNEqaNEqaNEqaNEqaNEqn6xticG\/+2cy0H7Xz2Sg\/a6fyUD7XT+Tgfa7fiYD7Xf9TAba7\/qZDLTf9TMZaL\/rZzLQftfPZHy89pz8T2C9pe0qxZQoWHz1r1Ed16x5256DFq2CFq2CFq2CFq2CFq2CFq3yydqURfJsPDurI+nObfugU+H0zRa0mfeoxwLaWR15j3osoJ3VkfeoxwLaWR15j3osoJ3VkfeoxwLaWR15j3osoJ3VkfeoxwLaWR15j3osoJ3Vkfeox8JfqLWLvqodZUj9iar9ay2tb7wYZ\/5QTtlSq60FLVoFLVoFLVoFLVoFLVoFLVrlk7UxyZNkq8bZ6IvC8My7DVBHter2d1hnazkVaNGW+1mNs9EXBbRoVUCLVgW0aFVAi1YFtGhV+K3a2pGPtVvpmZ+Wg\/PYb2wtrep3MnHDNmjRoo2g\/RW0aNFG0P4KWrRoI2h\/5W\/RZvJC8Cz1amzbs8PT+jLb36Z+S\/tmtGhXYd1Yyy1o19aDFq2CFq2CFq2CFq2C9qdq23Qft82sZ\/lBmfg0L23uU3xy+xNYYXvcgxatghatghatghatghatghat8slam749NrTRl8nCmB5po1rh9Fr98HwN7cygbIXTa2hb4eSxDMpWOL2GthVOHsugbIXTa2hb4eSxDMpWOL2GthVOHsugbIXTa2hb4eSxDMpWOL2GthVOHsugbIXTa2hb4eSxDMpWOL2GthVOHsugbIXTa3+fNpJnrVCnf+2fEdPrqlUzMWUUtozvQ4tWQYtWQYtWQYtWQYtWQYtW+WStDUlPbFdvb65ntoq3s9CGtpaMN1vyS4dgLfvgQ29vRvuFFi3a0oz2Cy1atKUZ7RdatGhL85\/VRm+9n\/g4G8ZY1S9olMeznJLfF9UK9b5c+xi0z2c5Ba3fOq7QbkH7KDud5RS0fuu4QrsF7aPsdJZT0Pqt4wrtFrSPstNZTkHrt46r36qtt2KwHdfpMaT9eF9+2kPBD9qUyHi8kdFaHgp+gNYuvNCitQsvtGjtwgstWrvwQovWLrzQorULr5+szYyrr8P07cxv2JllM57x2x+ofkZcq0FrZxa0dVeCVhk30L7Qoo2raPsP2tMZ2i1o7cyCtu5K0Crjxv+mjfiFlG2rOr0lz+ZHtm+p2+0zMsnwoI2Vo15oa9CWqhfQhjFXaBW0aBW0aBW0aBW0P0h7Qg33GFL6fEq2zK\/yUV9P39LGZ9DaFLRoNQUtWk1Bi1ZT0KLVFLRoNQXtB2v9fnt7PmZpM\/OD\/KANsG2Oj9S\/Q6vGjf3PspZofYW2XkBbxkfQZksGLVoFLVoFLVoFLVrlj2tPaaiqiGobXH8iqcgzzza5taxSBC1aBS1aBS1aBS1aBS1aBS1a5ZO1QcnHfEj8JM\/6ferWPAZY33atJr603bXkgNW87+ZjaEvQolXQolXQolXQolXQolXQ\/kCt39su5ListubaFyiL980Pr9dm3n5arv0RtNqiRastWrTaokWrLVq02qJFqy3aD9G2tFsNUFHbBzWPnya5DYiCV9N4+iq0aONs35egnQPQ2vb0WDyRQRtBizbO9n0J2jkArW1Pj8UTGbQRtGjjbN+Vt+2kPmuD42cMjsdqdf5kX961f2thg1YyWrTRvJa2Q4tWO7RotUOLVju0aLVDi1a7z9HWF1vSuMULXxXQbr75yEiVPdz1oG1BG71o0aL9FbTRixYt2l9BG71o0X6wNu9vF3JI+6r3zQ3qN2w7XxstGbSzGW12oNWNLKB9BKDtd9Fa3jejzQ60upEFtI8AtP0uWsv7ZrR5tf48DD41vzmLrNsq2L+1vr1bp\/iNtbTddgFtCdovtDHA\/q11tA\/Nb84i67YK9m+to31ofnMWWbdVsH9rHe1D85uzyLqtgv1b62gfmt+cRdZtFezfWkf70PzmLLJuq2D\/1jrah+Y3Z5F1WwX7t9bRPjS\/OYus2yrYv7X+X2obyu7Uaqy8kGeR893I8Gzj693t61fLWtoObQ3a84to9\/Fo0b7Gu2jRrj60fhY5342gPb+Idh+PFu1rvPufta8xKdNakpyAehaF+uL2ubl9fNKDFq2CFq2CFq2CFq2CFq2CFq3yN2jHTEsODkpdbdfS3fpOLaeHqizO9m2uH4egjckZtJuiXUOLVn1o0aoPLVr1oUWrPrRo1febtW1wpE7aADk9jW11GpWK7KtNG7lu0aJV0KJV0KJV0KJV0KJV0KJVPldryTt+EI95tV6NzMfq9mvnxUfmt2S1bvMsgxZtVNtBfcKCFq2CFq2CFq2CFq2CFq3yc7UJsMSz9bGter6RFLvRpuTX22pz18xRaNFG0KJV0KJV0KJV0KJV0KJVPlebnatYVq2Qin3c9vVxVu++DtcsEz\/moW1B+0IbZ\/Xu63DNgja3aNGiRVu3aNGiRVu3f1jbLvgTcSuHtIwBWdherKUcld+cSa1dq3+MtbSdetGiVS9atOpFi1a9aNGqFy1a9aJFq95P0FpnfSLebtWamFSfjc9tA3JKS1ZrQruf5dqvol2JezVZrUGLVkGLVkGLVkGLVkGLVkH7J7XbE7k94Wu2wXVKmxd32+SxbYm\/CFq0EbRoFbRoFbRoFbRoFbRolU\/Wfq1xtmov\/uOFphirmJ5nftC+uWmjpW3X2ra59iG5Qot2jUNbmk88tMOYK7SxzbUPyRVatGsc2tJ84qEdxlyhjW2ufUiu0P4\/ayvqa+ET0Cjb2QDEdihefu3Na\/kHquPXEi1aj195vN9WszpkaCN+5fF+W83qkKGN+JXH+201q0OGNuJXHu+31awOGdqIX3m831azOmRoI37l8X5bzeqQoY34lcf7bTWrQ4Y24lce77fVrA4Z2i2tYzxryVW05GOejddWlbdNrlPyDC3a\/S5aD1q0Clq0Clq0Clq0CtoP1tYhtm2KDeDbzPZV9W56Hr45Z9Rt\/NHQokUbQYtWQYtWQYtWQYtWQfvXaTdPQ9Untm\/Ja615zIuW6o4MXgvarXnMixa0aNFaES1aFdGiVREtWhXRolXxR2sbwNKuzi\/wWN8GqGenH2vZktd8Oz53LdHWG+PHWrbkNd+itaBFq6BFq6BFq6BFq6BFq\/xu7ZsEzzb\/aXCssjB4Vg1FXeWoXKFFi7YPRqugRaugRaugRaugRat8rtZ7LDGuPrulDontPrg8lkOzOfvyI70azYeha4l2jYqh2Zx9aLPPm9GqGs2HoWuJdo2KodmcfWizz5vRqhrNh6FriXaNiqHZnH1os8+b0aoazYeha4l2jYqh2Zx9aLPPm3+CNrf5Yp7UF0\/Nkaz627Y12batd+drI2hfaC1oX2gtaF9oLWhfaC1oX2gtaF9oLZ+rtdSB\/1TeY2rz10LF3fpjVUugsuCZfVWAFm1s11IZV9GiRet30KJV0KJV0KJV0P5obb1gHdab2Z61+LP5E1PayvNgzLNsqasMWitsKw9atApatApatApatApatAraz9LO+3XStq3NDzn1Ncqbv02sPGi3nPrQokWLFq3Ht2jXmW39DC1anaFFqzO0P0t7irVXY55Zti\/IH+9rZ9ln2frevJFBi1ZBi1ZBi1ZBi1ZBi1ZBi1b5XK0PyWxvuyxj06OvbZvR+hNahqgwr2XfLlhLtPUa2hq0v1KGqDCvZR9atGjVhxat+tCiVR9atOr7E9o8j63fshfNk4A8i5b2fV6y6hzamut469uuedCiVdCiVdCiVdCiVdCiVdCiVT5c2ybV++3sND3wNe++ubXUbBYP2ha0L7QWtC+0FrQvtBa0L7QWtC+0FrSvv0P79eaJ3OaURm6F9pHjm9u7cbaa1xLtKKAdt9CuM7RodYYWrc7QotUZWrQ6Q\/tBWqu2lb09r3mi6i2ZmJyF8zdbdWtG60GLVkGLVkGLVkGLVkGLVkH76dq2zVfO+HjH75oxPyMy8E27FU5nHrRoFbRoFbRoFbRoFbRoFbRolU\/WtuTM03SDtumhHR+eLbH12ID2pTklWjxo0Spo0Spo0Spo0Spo0Spo0Sqfq\/35QXsvaO8F7b2gvRe094L2XtDeC9p7QXsvaO8F7b2gvRe094L2XtDeC9p7QXsvaO8F7b2gvRe094L2XtDeC9p7QXsvaO8F7b2gvRe094L2XtDeC9p7QXsvaO8F7b2gvRe094L2XtDey4dp\/w3PIf7usOcIWAAAAABJRU5ErkJggg==","ticket_url":"https:\/\/www.mercadopago.com.br\/payments\/80331355854\/ticket?caller_id=1702667588&hash=23fa6c37-e717-4bc8-9383-a66920526e8f","transaction_id":"PIXE22896431202406111547glEPeXEDUBE"},"type":"OPENPLATFORM"},"pos_id":null,"processing_mode":"aggregator","refunds":[],"release_info":null,"shipping_amount":0,"sponsor_id":null,"statement_descriptor":null,"status":"approved","status_detail":"accredited","store_id":null,"tags":null,"taxes_amount":0,"transaction_amount":0.1,"transaction_amount_refunded":0,"transaction_details":{"acquirer_reference":null,"bank_transfer_id":18923595643,"external_resource_url":null,"financial_institution":"1","installment_amount":0,"net_received_amount":0.1,"overpaid_amount":0,"payable_deferral_period":null,"payment_method_reference_id":null,"total_paid_amount":0.1,"transaction_id":"PIXE22896431202406111547glEPeXEDUBE"}}
+2024-06-11 12:50:24 - []
+2024-06-11 12:50:36 - []
+2024-06-11 12:54:01 - []
+2024-06-11 12:54:02 - []
+2024-06-11 12:54:42 - []
+2024-06-11 12:54:43 - []
+2024-06-11 13:01:05 - []
+2024-06-11 13:01:05 - []
+2024-06-11 13:01:53 - []
+2024-06-11 13:01:53 - []
